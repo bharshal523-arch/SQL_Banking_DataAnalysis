@@ -5,6 +5,7 @@ Use BankingDB;
 
 -- Creating database of bank
 create database BankingDB;
+
 CREATE TABLE Customers (
 CustomerID INT PRIMARY KEY,
 FirstName VARCHAR(50),
@@ -55,4 +56,9 @@ CREATE TABLE Loans (
 show tables;
 
 describe accounts;
+describe customers;
+describe transactions;
+describe loans;
+describe branches;
+describe accountbranches;
 
